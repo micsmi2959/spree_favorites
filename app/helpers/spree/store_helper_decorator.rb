@@ -1,4 +1,3 @@
-include Spree::Core::ControllerHelpers::Store
 module Spree
   StoreHelper.module_eval do
     def favorite_count
