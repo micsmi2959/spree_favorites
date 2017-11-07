@@ -1,4 +1,4 @@
-
+module Spree
   Spree::StoreHelper.class_eval do
     def favorite_count
       if try_spree_current_user
@@ -27,4 +27,4 @@
     end
 
   end
-#end
+end
