@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_favorites'
-  s.version     = '2.2.2'
+  s.version     = '2.2.3'
   s.summary     = 'Users can mark favorite products or anything else you want to allow.'
   s.description = s.summary
   s.required_ruby_version = '>= 2.0.0'
