@@ -1,5 +1,5 @@
 module Spree
-  module StoreHelper.module_eval do
+  module StoreHelper.class_eval do
     def favorite_count
       if try_spree_current_user
         try_spree_current_user.favorites.count
