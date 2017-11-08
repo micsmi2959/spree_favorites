@@ -1,3 +1,4 @@
+require 'rails/all'
 module Spree
   Spree::StoreHelper.class_eval do
     def favorite_count
